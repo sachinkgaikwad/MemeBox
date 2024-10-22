@@ -1,0 +1,85 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../style/style.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Meme-Box</title>
+    <h1>Meme-Box</h2>
+</head>
+
+<body>
+    <h4>By Sachin</h4>
+
+    <!-- Button to run Command 1 -->
+    <form action="/run_command1" method="POST">
+        <button class="fixed-size-button" type="submit">Abhi-Maja</button>
+    </form>
+    <br>
+    <!-- Button to run Command 2 -->
+    <form action="/run_command2" method="POST">
+        <button class="fixed-size-button" type="submit">Baburao</button>
+    </form>
+    <br>
+    <!-- Button to run Command 3 -->
+    <form action="/run_command3" method="POST">
+        <button class="fixed-size-button" type="submit">Kayprakar</button>
+    </form>
+    <br>
+    <!-- Button to run Command 4 -->
+    <form action="/run_command4" method="POST">
+        <button class="fixed-size-button" type="submit">GolMal</button>
+    </form>
+    <br>
+    <!-- Button to run Command 5 -->
+    <form action="/run_command5" method="POST">
+        <button class="fixed-size-button" type="submit">Hey-Prabhu</button>
+    </form>
+    <br>
+    <!-- Button to run Command 6 -->
+    <form action="/run_command6" method="POST">
+        <button class="fixed-size-button" type="submit">Kehna-Kya</button>
+    </form>
+    <br>
+    <!-- Button to run Command 7 -->
+    <form action="/run_command7" method="P7OST">
+        <button class="fixed-size-button" type="submit">Khatam</button>
+    </form>
+    <br>
+    <!-- Button to run Command 8 -->
+    <form action="/run_command8" method="POST">
+        <button class="fixed-size-button" type="submit">laugh</button>
+    </form>
+    <br>
+    <!-- Button to run Command 9 -->
+    <form action="/run_command9" method="POST">
+        <button class="fixed-size-button" type="submit">Pagal</button>
+    </form>
+    <br>
+    <!-- Button to run Command 10 -->
+    <form action="/run_command10" method="POST">
+        <button class="fixed-size-button" type="submit">Ruko-Jara</button>
+    </form>
+    <br>
+    <!-- Button to run Command 11 -->
+    <form action="/run_command11" method="POST">
+        <button class="fixed-size-button" type="submit">So-Beautiful</button>
+    </form>
+    <br>
+    <!-- Button to run Command 12 -->
+    <form action="/run_command12" method="POST">
+        <button class="fixed-size-button" type="submit">Sunai</button>
+    </form>
+    <br>
+
+
+    <!-- Display output from the server 
+    {% if output %}
+    <h2>Command Output:</h2>
+    <pre>{{ output }}</pre> {% endif %} -->
+</body>
+
+</html>
